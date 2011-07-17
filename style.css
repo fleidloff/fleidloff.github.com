@@ -1,0 +1,99 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('header.jpg') #3A3A3A;
+	background-repeat: repeat-x;
+}
+
+div#header {
+	width: 100%;
+	left: 0;
+	position: absolute;
+	height: 12px;
+	border-bottom: 1px solid #817A14;
+	background: #D3BC48;
+	text-align: center;
+	-moz-box-shadow: 2px 2px 3px #222222;
+	-webkit-box-shadow: 2px 2px 3px #222222;
+	box-shadow: 2px 2px 3px #222222;
+}
+
+div#content {
+	position: absolute;
+	top: 40px;
+	left: 140px;
+	width: 555px;
+}
+
+div#content p {
+	font-face: serif;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #222;
+	color: #EEEEEE;
+	line-height: 1;
+	margin: 0;
+	padding: 0 0 8px;
+}
+
+div#content p b, div#content p a {
+	font-weight: normal;
+	color: #D3BC48;
+	text-decoration: none;
+}
+
+div#content p a:hover {
+	text-decoration: underline;
+}
+
+div#content img#signature {
+	border: 0;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+div#pics {
+}
+
+div#pics div.pic {
+	position: absolute;
+	background: #EEEEEE;
+	border: 10px solid #EEEEEE;
+	padding: 0;
+	-moz-box-shadow: 0px 0px 6px #111111;
+	-webkit-box-shadow: 0px 0px 6px #111111;
+	box-shadow: 0px 0px 6px #111111;
+	margin-bottom: 30px;
+	cursor: move;
+}
+
+div#pics div.pic:hover {
+	background: #FFFFFF;
+	border: 10px solid #FFFFFF;
+}
+div#pics div.activePic:hover {
+	background: #D3BC48;
+	border: 10px solid #D3BC48;
+	opacity: 1.0;
+}
+div#pics div.activePic:hover  img{
+	opacity: .7;
+}
+
+div#pics div.pic p {
+	text-align: center;
+	font-face: serif;
+	font-size: 1em;
+	text-shadow: 1px 1px 1px #BBBBBB;
+	color: #111111;
+}
+
+div#pics div.pic p a {
+	font-weight: normal;
+	color: #111111;
+	text-decoration: underline;
+}
+
+
