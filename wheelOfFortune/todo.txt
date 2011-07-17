@@ -1,0 +1,7 @@
+- handle Tab
+- insert item at specific position
+- n results
+- n runden bis zum result
+- shuffle list
+- JSLint warnings beseitigen
+- autogrow nach shuffle

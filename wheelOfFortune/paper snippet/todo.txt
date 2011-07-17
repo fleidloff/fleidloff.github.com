@@ -1,0 +1,3 @@
+- fix css
+- show box contents
+- get random token from box
